@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
+
+/* Site-Pallete 
+--------------------------------------------------------------*/
+
+* {
+	/* CSS HSL */
+--xiketic: hsla(231, 82%, 6%, 1);
+--dark-sienna: hsla(339, 80%, 12%, 1);
+--rosewood: hsla(354, 93%, 22%, 1);
+--dark-red: hsla(358, 97%, 31%, 1);
+--rosso-corsa: hsla(0, 100%, 41%, 1);
+--vermilion: hsla(12, 98%, 44%, 1);
+--persimmon: hsla(23, 97%, 46%, 1);
+--carrot-orange: hsla(34, 95%, 49%, 1);
+--orange-web: hsla(39, 96%, 50%, 1);
+--selective-yellow: hsla(43, 100%, 52%, 1);
+}
+
+body {
+	background-color: var(--xiketic);
+}
+
+/*Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+textarea,
+p {
+	color: var(--carrot-orange);
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Patua One", serif;
+  letter-spacing: 2px;
+  color: var(--selective-yellow);
+}
+
+/* Containers
+-------------------------------------------------------------- */
+
+#embed_container {
+	min-height: 75vh;
+	min-width: 60vw;
+	background-color: var(--dark-red);
+	border-radius: .8rem;
+}
