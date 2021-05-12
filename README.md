@@ -1,3 +1,5 @@
+<style>h1{color:gold;}</style>
+
 # Hello Demo
 
 ## Description
