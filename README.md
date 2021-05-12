@@ -1,6 +1,5 @@
-<style>h1{color:gold;}</style>
-
 # Hello Demo
+
 
 ## Description
 
@@ -15,3 +14,5 @@ This project can be cloned and initiated using a local web server (e.g. [LiveSer
 ## Usage
 
 The project can be accessed via GitHub Pages at [https://jon-xo.github.io/hello-demo/](https://jon-xo.github.io/hello-demo/). When the Hello Demo page is reloaded, it will cycle through a random game via strings stored in the `findGame` array located in `main.js`.
+
+<style>H1{color:gold;}</style>
